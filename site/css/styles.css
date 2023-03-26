@@ -345,6 +345,19 @@ h3.menu-item-title {
   	margin: 0 auto 15px;
   }
 
+
+  .menu-item-photo {
+  	margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+  	text-align: center;
+  	margin-bottom: 30px;
+  }
+  h3.menu-item-title {
+  	text-align: center;
+  }
+
+
   .panel-footer section {
   	width: 60%;
   	margin: 0 auto 30px;
