@@ -1,0 +1,68 @@
+body {
+  	font-size: 16px;
+  	color: #191970;
+  	background-color: #F0F8FF;
+  	font-family: 'Raleway', sans-serif;
+}
+
+
+#header-nav {
+	background-color: #191970;
+	border-radius: 0;
+	border: 0;
+	height: 5.5em;
+}
+.navbar-brand h1 {
+	color: #ffe4e1;
+	font-size: 3em;
+	font-weight: bold;
+	margin: auto 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color:  #ffe4e1;
+	text-align: center;
+	font-weight: 500;
+}
+#nav-list a:hover {
+	background: #4169E1;
+	font-weight: 600;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ffe4e1;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+.navbar-header button.navbar-toggle:hover {
+	background-color: #4169E1;
+}
+.navbar-header button.navbar-toggle:active {
+	background-color: #527af2;
+}
+.navbar-header button.navbar-toggle:focus-within {
+	background-color: #191970;
+}
+
+.text-center h2 {
+	font-size: 2.5em;
+	font-weight: 600;
+	padding: 20px;
+	margin: 10px;
+}
+
+div.row>div>div {
+	box-sizing: border-box;	
+	background: #98dffb;
+	margin: 10px;
+	padding: 10px;
+	font-style: italic;
+}
+div h3 {
+	font-size: 1.7em;
+	margin-top: 5px;
+}
