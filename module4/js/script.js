@@ -1,18 +1,19 @@
-var x = "in global";
+function makeMultiplier(multiplier) {
+	var myFunc = function (x) {
+		return multiplier * x;
+	};
 
-console.log(x);
-
-a();
-
-
-function a () {
-	var x = "inside a";
-	
-	console.log(x);
-
-	function b () {
-		console.log(x);
-	}
-	
-	b();
+	return myFunc;
 }
+
+var double = makeMultiplier(2);
+
+console.log(double(50));
+
+function doOperation (x, operation) {
+	return operation(x);
+}
+
+var result = doOperation(50, double);
+
+console.log(result);
