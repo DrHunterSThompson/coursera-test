@@ -1,19 +1,14 @@
-function makeMultiplier(multiplier) {
-	var myFunc = function (x) {
-		return multiplier * x;
-	};
-
-	return myFunc;
+function print(a, b) {
+	console.log("a = " + a.x + "\nb = " + b.x);
 }
 
-var double = makeMultiplier(2);
 
-console.log(double(50));
+var a = {x: 7};
+var b = a;
+print(a, b);
 
-function doOperation (x, operation) {
-	return operation(x);
-}
+a.x = 9;
+print(a, b);
 
-var result = doOperation(50, double);
-
-console.log(result);
+b.x = 5;
+print(a, b);
