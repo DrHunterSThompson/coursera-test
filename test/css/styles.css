@@ -28,7 +28,7 @@ header section.row div:hover {
 header a {
 	vertical-align: middle;
 	color: #fff;
-	font-size: 2em;
+	font-size: 3vw;
 	text-transform: uppercase;
 }
 header section.row div#logo {
