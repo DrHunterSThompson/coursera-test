@@ -28,7 +28,7 @@ header section.row div:hover {
 header a {
 	vertical-align: middle;
 	color: #fff;
-	font-size: 3vw;
+	font-size: 2vw;
 	text-transform: uppercase;
 }
 header section.row div#logo {
@@ -58,8 +58,8 @@ header .active {
 	font-family: 'Playfair Display', serif;
 	font-size: 5em;
 	text-shadow: 5px 5px 20px #000;
-	margin-top: 130px;
-	margin-bottom: 100px;
+	margin-top: 200px;
+	margin-bottom: 150px;
 }
 #title hr {
 	margin-top: 0px;
@@ -68,7 +68,7 @@ header .active {
 }
 #home-page-article {
 	background-color: #ddd;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	box-shadow: 5px 5px 20px #000;
 }
 #home-page-article p {
@@ -112,11 +112,11 @@ section.row#characters div span {
 
 div#empty {
 	background: url('../data/images/not-available.jpg') no-repeat;
-	background-size: 100%;
+	background-position: center;
+	background-size: cover;
 	width: 60%;
+	min-height: 200px;
 	margin: 0 20%;
-	height: 450px;
-	float: top;
 	margin-bottom: 100px;
 	text-align: center;
 	font-size: 3em;
